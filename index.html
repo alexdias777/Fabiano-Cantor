@@ -105,17 +105,14 @@
     Aúdio
 ============================== -->
 	<div id="som">
-		<audio controls="controls" id="audio">
-			<source src="https://github.com/alexdias777/Fabiano-Cantor.github.io/blob/420e49b1cf146448f3f959d6ecdac6bea1a1be25/fabiano.mp3" type="audio/mpeg">
-			<source src="https://github.com/alexdias777/Fabiano-Cantor.github.io/blob/420e49b1cf146448f3f959d6ecdac6bea1a1be25/fabiano.mp3" type="audio/ogg">
-			<source src="https://github.com/alexdias777/Fabiano-Cantor.github.io/blob/420e49b1cf146448f3f959d6ecdac6bea1a1be25/fabiano.mp3" type="audio/mp3">
-			<source src="https://github.com/alexdias777/Fabiano-Cantor.github.io/blob/420e49b1cf146448f3f959d6ecdac6bea1a1be25/fabiano.mp3" type="audio/wav">
-			Seu navegador não tem suporte a Tag Audio.
+		<audio id="mp3" autoplay muted controls>
+			<source src="https://github.com/alexdias777/Fabiano-Cantor.github.io/blob/420e49b1cf146448f3f959d6ecdac6bea1a1be25/fabiano.mp3" type="audio/mp3"/>
+			<source src="https://github.com/alexdias777/Fabiano-Cantor.github.io/blob/420e49b1cf146448f3f959d6ecdac6bea1a1be25/fabiano.mp3" type="audio/mpeg"/>
+			<source src="https://github.com/alexdias777/Fabiano-Cantor.github.io/blob/420e49b1cf146448f3f959d6ecdac6bea1a1be25/fabiano.mp3" type="audio/ogg"/>
+			<source src="https://github.com/alexdias777/Fabiano-Cantor.github.io/blob/420e49b1cf146448f3f959d6ecdac6bea1a1be25/fabiano.mp3" type="audio/wav"/>
+				<p>Infelizmente seu navegador não tem suporte de repordução deste aúdio</p>
+				<a href="http://https://www.youtube.com/watch?v=7tzXcmu42Jw">Baixe este vídeo aqui</a>
 		</audio>
-		<br />
-		<button id="play">Play</button>
-		<button id="pause">Pause</button>
-		<input placeholder="volume" type="range" id="volume" min="0.0" max="1" value="0.5" />
 	</div>
 	<!-- =========================
     OVERVIEW SECTION   
@@ -337,7 +334,6 @@
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/custom.js"></script>
-	<script src="js/audio.js"></script>
 
 </body>
 
